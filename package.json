@@ -1,18 +1,18 @@
 {
-  "name": "ts-starter",
+  "name": "@oiij/unocss-preset",
   "type": "module",
   "version": "0.0.1",
   "description": "",
   "author": "oiij",
   "license": "MIT",
-  "homepage": "https://github.com/oiij/ts-starter",
+  "homepage": "https://github.com/oiij/unocss-preset",
   "repository": {
     "type": "git",
-    "url": "git@github.com:oiij/ts-starter.git"
+    "url": "git@github.com:oiij/unocss-preset.git"
   },
-  "bugs": "https://github.com/oiij/ts-starter/issues",
+  "bugs": "https://github.com/oiij/unocss-preset/issues",
   "keywords": [
-    "ts-starter"
+    "oiij-unocss-preset"
   ],
   "sideEffects": false,
   "exports": {
@@ -52,6 +52,9 @@
     "preinstall": "npx only-allow pnpm",
     "postinstall": "npx simple-git-hooks"
   },
+  "dependencies": {
+    "@unocss/core": "^65.4.3"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.0",
     "@oiij/tsconfig": "^0.0.1",
@@ -70,6 +73,7 @@
     "tsup": "8.3.6",
     "typescript": "^5.7.3",
     "unbuild": "^3.3.1",
+    "unocss": "^65.4.3",
     "vitest": "^3.0.5"
   },
   "simple-git-hooks": {
